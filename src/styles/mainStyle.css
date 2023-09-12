@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F6F4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 50px;
+    background-color: #fff159;
+}
+
+.pwlogo {
+    font-size: 1.7rem;
+    margin-left: 2px;
+    color: #3483fa;
+}
+
+.title__container a {
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search input {
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.lupa {
+    background-color: #FFFFFF;
+    padding: 9.5px 10px;
+    
+}
+
+.navInfos__container {
+    display: flex;
+    gap: 30px;
+}
+
+.navInfos__container a {
+    text-decoration: none;
+    color: #3483fa;
+}
+
+.produtos__container {
+    margin: 20px 100px;
+}
+
+.marq {
+    width: 30vw;
+    margin: auto;
+    color: #3483fa;
+}
+
+.subtitle__container {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.subTitle {
+    text-transform: uppercase;
+}
+
+.more a {
+    font-size: 1.2rem;
+    color: #3483fa;
+    text-decoration: none;
+}
+
+.produtos__itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ancorProduto {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.produto {
+    width: 20vw;
+    height: 100%;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.produto img {
+    width: 19vw;
+    height: 19vw;
+}
+
+.nomeProduto {
+    margin-bottom: 10px;
+}
+
+.valores__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.valorDescontado {
+    font-size: 1.4rem;
+    color: #118C4F;
+}
+
+.valorAntigo {
+    color: #c4c4c4;
+    text-decoration: line-through;
+}

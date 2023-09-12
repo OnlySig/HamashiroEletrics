@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F6F4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 50px;
+    background-color: #fff159;
+}
+
+.pwlogo {
+    font-size: 1.7rem;
+    margin-left: 2px;
+    color: #3483fa;
+}
+
+.title__container a {
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search input {
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.lupa {
+    background-color: #FFFFFF;
+    padding: 9.5px 10px;
+    
+}
+
+.navInfos__container {
+    display: flex;
+    gap: 30px;
+}
+
+.navInfos__container a {
+    text-decoration: none;
+    color: #3483fa;
+}
