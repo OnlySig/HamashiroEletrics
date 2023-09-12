@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F8F6F4;
+    background-color: #E8E8E8;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,8 +18,8 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 30px 50px;
+    justify-content: space-between;
+    padding: 30px 100px;
     background-color: #fff159;
 }
 
@@ -51,7 +51,6 @@ li {
 .lupa {
     background-color: #FFFFFF;
     padding: 9.5px 10px;
-    
 }
 
 .navInfos__container {
@@ -62,4 +61,72 @@ li {
 .navInfos__container a {
     text-decoration: none;
     color: #3483fa;
+}
+
+.servico__container h2 {
+    padding: 20px 0px;
+}
+
+.servico__titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("https://st2.depositphotos.com/1020070/7136/v/450/depositphotos_71362241-stock-illustration-professional-electrician-with-electric-tools.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: #3483fa;
+}
+
+.info__container {
+    padding: 20px 100px;
+}
+
+.subtitle__info {
+    color: #c4c4c4;
+}
+
+.info__itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.info__item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 25px;
+    transition: .3s;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.info__item:hover {
+    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.200);
+}
+
+.info__item img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemP {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.info__title {
+    margin-bottom: 20px;
 }
