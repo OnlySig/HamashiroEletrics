@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fcfcfc;
+    background-image: url("../imgs/formal-invitation.svg");
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -70,75 +70,82 @@ li {
     font-weight: 700;
 }
 
-
-.servico__container h2 {
-    padding: 20px 0px;
-}
-
-.servico__titles {
+.contato__container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    background-image: url("https://st2.depositphotos.com/1020070/7136/v/450/depositphotos_71362241-stock-illustration-professional-electrician-with-electric-tools.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 30px;
 }
 
-.titleLogo {
-    color: #000;
-}
-
-.title {
-    color:#fff159;
-}
-
-.info__container {
-    padding: 20px 100px;
-}
-
-.subtitle__info {
-    color: #c4c4c4;
-}
-
-.info__itens {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.info__item {
-    cursor: pointer;
+.contato__up {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    width: 25%;
+    background-color: #fff159;
+}
+
+.itemContent__up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    width: 15vw;
-    height: 16vw;
-    margin-bottom: 25px;
-    transition: .3s;
-    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.subTitle {
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+
+.contato__down {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 50px;
+    width: 25%;
+    box-shadow: 0px 10px 17px 0px rgba(0,0,0,0.20);
     background-color: #FFFFFF;
-    border-radius: 8px;
 }
 
-.info__item:hover {
-    box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.200);
+.forms__container {
+    display: flex;
+    flex-direction: column;
 }
 
-.info__item img {
-    width: 200px;
-    height: 200px;
-}
-
-.itemP {
-    margin-top: 15px;
+.title__down {
     text-align: center;
+    padding: 30px 0;
 }
 
-.info__title {
+.title__down h1{
+    color: #fff159;
+    font-weight: 700;
+}
+
+.inputs {
+    border: none;
+    border-bottom: 1px solid black;
     margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+}
+
+.textareaValue {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.enviarBotao {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 0;
+    background-color: #fff159;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
 }
