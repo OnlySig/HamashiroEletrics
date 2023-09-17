@@ -81,6 +81,10 @@ li {
     color: #3483fa;
 }
 
+.navInfos__container a:hover {
+    text-decoration: underline;
+}
+
 .produtos__container {
     margin: 20px 100px;
 }
