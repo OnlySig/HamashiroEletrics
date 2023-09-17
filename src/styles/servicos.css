@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fcfcfc;
+    background-color: #f5f5f5;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,8 +59,9 @@ li {
 }
 
 .navInfos__container a {
+    font-weight: 700;
     text-decoration: none;
-    color: #000;
+    color: #3483fa;
 }
 
 .logoContainer {
@@ -117,7 +118,7 @@ li {
     align-items: center;
     gap: 10px;
     width: 15vw;
-    height: 16vw;
+    height: 15vw;
     margin-bottom: 25px;
     transition: .3s;
     padding: 20px;
@@ -127,18 +128,65 @@ li {
 
 .info__item:hover {
     box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.200);
+    width: 16vw;
 }
 
 .info__item img {
     width: 200px;
-    height: 200px;
+    height: 150px;
+    border-radius: 8px;
 }
 
 .itemP {
     margin-top: 15px;
     text-align: center;
+    color: #3483fa;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 .info__title {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    .info__item {
+        padding: 0px;
+    }
+}
+
+.footer__container {
+    background-image: url("/src/imgs/Wave.svg");
+    background-size: cover;
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancor__container {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.title__footer {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ohomi {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.ancorHomi {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #3483fa;
 }

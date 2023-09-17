@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #f5f5f5;
     background-image: url("../imgs/formal-invitation.svg");
     font-family: 'Montserrat', sans-serif;
 }
@@ -27,6 +28,10 @@ li {
     font-size: 1.7rem;
     margin-left: 2px;
     color: #3483fa;
+}
+
+.titleLogo {
+    color: #000000;
 }
 
 .title__container a {
@@ -59,8 +64,9 @@ li {
 }
 
 .navInfos__container a {
+    font-weight: 700;
     text-decoration: none;
-    color: #000;
+    color: #3483fa;
 }
 
 .logoContainer {
@@ -83,8 +89,9 @@ li {
     flex-direction: column;
     justify-content: center;
     padding: 30px 50px;
-    width: 25%;
+    width: 450px;
     background-color: #fff159;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .itemContent__up {
@@ -106,7 +113,7 @@ li {
     flex-direction: column;
     gap: 20px;
     padding: 30px 50px;
-    width: 25%;
+    width: 450px;
     box-shadow: 0px 10px 17px 0px rgba(0,0,0,0.20);
     background-color: #FFFFFF;
 }
@@ -148,4 +155,40 @@ li {
     font-weight: 700;
     color: #FFFFFF;
     border: none;
+}
+
+.footer__container {
+    background-image: url("/src/imgs/Wave.svg");
+    background-size: cover;
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancor__container {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.title__footer {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ohomi {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.ancorHomi {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #3483fa;
 }

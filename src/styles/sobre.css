@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #f5f5f5;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,10 +27,15 @@ li {
     font-size: 1.7rem;
     margin-left: 2px;
     color: #3483fa;
+    font-weight: 700;
 }
 
 .title__container a {
     text-decoration: none;
+}
+
+.titleLogo {
+    color: #000000;
 }
 
 .search {
@@ -59,8 +64,9 @@ li {
 }
 
 .navInfos__container a {
+    font-weight: 700;
     text-decoration: none;
-    color: #000;
+    color: #3483fa;
 }
 
 .logoContainer {
@@ -101,7 +107,7 @@ li {
 }
 
 .obj__container {
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 .objItens__container {
@@ -127,4 +133,40 @@ li {
 .item h5 {
     text-align: center;
     margin-bottom: 5px;
+}
+
+.footer__container {
+    background-image: url("/src/imgs/Wave.svg");
+    background-size: cover;
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancor__container {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.title__footer {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ohomi {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.ancorHomi {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #3483fa;
 }
